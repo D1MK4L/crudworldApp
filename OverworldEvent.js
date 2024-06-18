@@ -80,6 +80,7 @@ class OverworldEvent {
     const message = this.event.text     
 
     window.parent.postMessage(message, 'https://d1mk4l.github.io/angular-frontend');
+    console.log(message)
     resolve();
 }
 
